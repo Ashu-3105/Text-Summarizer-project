@@ -13,7 +13,7 @@ def Summarize():
     if req.method=="POST":
 
 
-        API_TOKEN = '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'
+        API_TOKEN = 'write your own Api key'
         API_URL = "https://api-inference.huggingface.co/models/facebook/bart-large-cnn"
         headers = {"Authorization": f"Bearer {API_TOKEN}"}
         data=req.form['data']
