@@ -1,5 +1,5 @@
 import requests
-API_TOKEN='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'
+API_TOKEN='write your own api id'
 
 API_URL = "https://api-inference.huggingface.co/models/facebook/bart-large-cnn"
 headers = {"Authorization": f"Bearer {API_TOKEN}"}
